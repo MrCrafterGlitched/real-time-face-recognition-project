@@ -1,0 +1,39 @@
+.heading{
+    font-size: 20px;
+    width: 100%;
+    margin: 0px;
+    box-shadow: 5px 10px 10px saddlebrown;
+}
+body{
+    background-size: cover;
+}
+.heading_div{
+    float: none;
+    background-color:whitesmoke;
+    padding: 10px;
+    color: black;
+    border-radius: 20px;
+}
+.heading_div_2{
+    font-size: large;
+    color:black;
+}
+.result{
+    font-size: 18px;
+    box-shadow: 5px 10px 10px saddlebrown;
+}
+#FOOT{
+    position: fixed;
+    bottom: 0%;
+    color: black;
+    width: 100%;
+    background-color: silver ;
+    text-align: center;
+    line-height: 2;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+canvas{
+    border: 10px solid palegoldenrod;
+    margin-top: 130px;
+}
