@@ -6,7 +6,7 @@ function setup() {
     canvas.center()
     video=createCapture(VIDEO)
     video.hide()
-    classifier=ml5.imageClassifier("https://teachablemachine.withgoogle.com/models/Zv00hYFv5/",model_loaded)
+    classifier=ml5.imageClassifier("https://teachablemachine.withgoogle.com/models/Zv00hYFv5/model.json",model_loaded)
 }
 function model_loaded() {
     console.log("Model has been loaded")
